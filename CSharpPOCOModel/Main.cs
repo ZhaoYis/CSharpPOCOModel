@@ -48,6 +48,9 @@ namespace CSharpPOCOModel
             this.mlab_staus_tips.Text = @"连接成功...";
 
             LoadDatabase();
+
+            CRichTextBoxMenu cRichTextBoxMenu = new CRichTextBoxMenu(this.mrtb_content);
+            cRichTextBoxMenu.Init();
         }
 
         /// <summary>
