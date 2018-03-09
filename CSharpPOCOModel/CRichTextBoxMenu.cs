@@ -32,6 +32,9 @@ namespace CSharpPOCOModel
             this.richTextBox.ContextMenuStrip = this.richMenu;
         }
 
+        /// <summary>
+        /// ≥ı ºªØ
+        /// </summary>
         public void Init()
         {
             this.richMenu.Items.Add(this.CMcopy);
