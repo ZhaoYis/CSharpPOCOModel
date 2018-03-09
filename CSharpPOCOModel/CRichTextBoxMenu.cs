@@ -3,6 +3,9 @@ using System.Windows.Forms;
 
 namespace CSharpPOCOModel
 {
+    /// <summary>
+    /// RichTextBox上下文菜单
+    /// </summary>
     public class CRichTextBoxMenu
     {
         private ContextMenuStrip richMenu = new ContextMenuStrip();
